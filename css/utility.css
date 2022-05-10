@@ -1,0 +1,105 @@
+.active {
+  border-bottom: 2px solid var(--tertiary-color);
+}
+
+.title-section {
+  font-size: var(--font36px);
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 3px;
+  text-align: left;
+}
+
+/* Button */
+.btn {
+  font-size: var(--font24px);
+  padding: 8px 24px;
+  border-radius: 5px;
+  box-shadow: var(--penumbra-shadow);
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--tertiary-color);
+  color: var(--on-primary-color);
+}
+
+/* Card */
+.features-card {
+  width: 22%;
+}
+
+.features-card img{
+  float: left;
+  margin-right: 10px;
+}
+
+.features-card h4 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.features-card p {
+  font-size: var(--font14px);
+  margin-top: -30px;
+  line-height: 20px;
+}
+
+.course-card {
+  box-shadow: var(--penumbra-shadow);
+  padding: 10px 10px 15px;
+  border-radius: 10px;
+}
+
+.course-card img {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 100%;
+  height: 25vh;
+  object-position: top;
+}
+
+.course-card span {
+  color: rgb(255, 208, 0);
+  font-size: var(--font18px);
+}
+
+.course-card .ratings {
+  display: inline-block;
+  font-size: var(--font14px);
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.course-card .title {
+  margin-top: -10px;
+  margin-bottom: 0;
+  height: 15%;
+  font-size: var(--font16px);
+}
+
+.course-card .level {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.course-card div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price, .details {
+  margin: 0;
+}
+
+.price {
+  font-size: var(--font20px);
+}
+
+.details {
+  margin-top: 1%;
+}
+
+.details a {
+  color: var(--tertiary-color);
+  text-decoration: underline;
+}

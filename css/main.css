@@ -1,0 +1,20 @@
+body {
+  background-color: var(--on-primary-color);
+  font-weight: 300;
+}
+
+/* Courses */
+.courses {
+  padding: 0 120px;
+  text-align: center;
+}
+
+.courses-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 50px;
+  gap: 16px;
+  text-align: left;
+}
+
+
