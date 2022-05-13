@@ -7,15 +7,17 @@
   border-bottom: 3px solid var(--primary-color);
   padding-bottom: 3px;
   text-align: left;
+  color: var(--primary-color);
 }
 
 /* Button */
 .btn {
-  font-size: var(--font24px);
+  font-size: var(--font18px);
   padding: 8px 24px;
   border-radius: 5px;
   box-shadow: var(--penumbra-shadow);
   border: none;
+  font-family: var(--font-family);
 }
 
 .btn-primary {
@@ -102,4 +104,133 @@
 .details a {
   color: var(--tertiary-color);
   text-decoration: underline;
+}
+
+.instructor-card {
+  box-shadow: var(--ambient-shadow);
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+.instructor-card .photo {
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 40vh;
+}
+
+.instructor-card h4 {
+  color: var(--primary-color);
+  margin-top: 17px;
+  margin-bottom: 0;
+}
+
+.instructor-card h5 {
+  font-weight: 400;
+  color: var(--primary-color);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.instructor-card a {
+  margin: 0 5px 0;
+}
+
+.testimony-card .review {
+  color: var(--on-primary-color);
+  font-weight: 300;
+  background-color: var(--primary-color);
+  padding: 24px 16px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.testimony-card .review::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  left: 43%;
+  bottom: -40px;
+  box-sizing: border-box;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid var(--primary-color);
+  position: absolute;
+}
+
+.testimony-card img {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.testimony-card:first-child img {
+  object-position: 0 -8px;
+}
+
+.testimony-card .name {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: var(--on-primary-color);
+  font-weight: 500;
+}
+
+.testimony-card p {
+  font-size: var(--font16px);
+  color: var(--on-primary-color);
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.packages-card {
+  box-shadow: var(--penumbra-shadow);
+  width: fit-content;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.packages-card h5 {
+  margin-top: 0;
+}
+
+.packages-card h3 {
+  margin-bottom: 35px;
+}
+
+.packages-card .price span {
+  font-size: var(--font16px);
+}
+
+.packages-card ul {
+  text-align: left;
+  padding-left: 0;
+  font-size: var(--font16px);
+}
+
+.packages-card li {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.packages-card img {
+  margin-right: 15px;
+  margin-bottom: -5px;
+}
+
+.packages-card li:nth-child(4) img {
+  margin-right: 18px;
+}
+
+.packages-card li:nth-child(5) img {
+  margin-right: 18px;
+}
+
+.packages-card .btn {
+  width: 100%;
+  font-weight: 300;
 }
