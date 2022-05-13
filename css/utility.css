@@ -20,6 +20,11 @@
   font-family: var(--font-family);
 }
 
+.btn:hover {
+  background-color: #df4600;
+  cursor: pointer;
+}
+
 .btn-primary {
   background-color: var(--tertiary-color);
   color: var(--on-primary-color);

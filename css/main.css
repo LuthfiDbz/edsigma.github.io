@@ -104,3 +104,36 @@ body {
   gap: 32px;
   justify-content:center;
 }
+
+/* CTA */
+.CTA {
+  padding: 30px 270px;
+  background-color: var(--secondary-color);
+}
+
+.CTA-content {
+  display: flex;
+  box-sizing: border-box;
+  background-color: var(--primary-color);
+  align-items: center;
+  padding: 20px 30px;
+  border-radius:  8px;
+  justify-content: space-between;
+  box-shadow: var(--ambient-shadow);
+}
+
+.CTA-content h3 {
+  font-size: var(--font28px);
+  margin: 0;
+  color: var(--on-primary-color);
+  font-weight: 500;
+  width: 70%;
+  line-height: 45px;
+}
+
+.CTA-content .btn {
+  padding: 10px 16px;
+  height: fit-content;
+  width: 19%;
+  font-size: var(--font20px);
+}
