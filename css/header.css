@@ -1,5 +1,5 @@
 .header {
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/hero2.png);
   background-size: cover;
   padding-top: 16px;
   height: 100vh;
@@ -15,7 +15,7 @@
   position: absolute;
   top: 0;
   z-index: -1;
-  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(30, 51, 34, 0.6));
+  background-image: url(../img/heroshadow.png);
 }
 
 .header-content {
